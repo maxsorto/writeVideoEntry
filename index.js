@@ -40,7 +40,8 @@ function buildItem(videoId)
             thumbnail: `output/adb_cb17-${videoId}-video_still_thumbnail-00001.jpg`,            
             still_1: `output/adb_cb17-${videoId}-video_still-00001.jpg`,
             still_2: `output/adb_cb17-${videoId}-video_still-00002.jpg`,
-            still_3: `output/adb_cb17-${videoId}-video_still-00003.jpg`
+            still_3: `output/adb_cb17-${videoId}-video_still-00003.jpg`,
+            item_type: 'submission'
         };
 
     return videoItem;
